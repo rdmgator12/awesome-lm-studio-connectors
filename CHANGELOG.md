@@ -1,0 +1,38 @@
+# Changelog
+
+All notable changes to this list will be documented in this file. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning follows [Semantic Versioning](https://semver.org/) — MAJOR for category restructures, MINOR for new entries, PATCH for description/URL fixes.
+
+## [Unreleased]
+
+### Planned for v1.1.0
+- Field reports per entry — local-model + quant + observed behavior. Establishes credibility around the 🪶 token-frugality flag.
+- Track LM Studio's [Popular MCP Integrations](https://lmstudio.ai/docs/integrations/mcp-remote/popular) page for new official additions and reflect within ~7 days.
+- Add a "Server Settings checklist" section explaining LM Studio's `Allow per-request MCPs` and `Allow calling servers from mcp.json` toggles — they're prerequisites for several entries to work.
+- Add `awesome-lint` to CI once the repo is ≥30 days old (lint blocks submissions on `git-repo-age` until 2026-06-09).
+
+---
+
+## [1.0.0] — 2026-05-10
+
+### Added
+- Initial seed across three tiers:
+  - **Officially Featured by LM Studio (4):** Linear, Notion, Atlassian (Jira + Confluence), Sentry. Sourced directly from [lmstudio.ai/docs/integrations/mcp-remote/popular](https://lmstudio.ai/docs/integrations/mcp-remote/popular).
+  - **Recommended Remote MCP Servers (12):** Hugging Face, Brave Search, GitHub, Cloudflare, Vercel, Stripe, PayPal, Square, Asana, Monday.com, Slack, Figma. Curated for OAuth-friendly remote endpoints + local-LLM token discipline.
+  - **Local Stdio MCP Servers (8):** Filesystem, Memory, Desktop Commander, Time, Sequential Thinking, Playwright, Browserbase, Fetch. Curated for low-overhead offline workflows.
+- README.md with About, Legend (⭐ 🌐 💻 🔐 🪶 🅖 🅜 🛠️), surface-grouped Contents, and per-entry use cases.
+- CONTRIBUTING.md with local-LLM-specific token-discipline guidance and field-report template.
+- CHANGELOG.md (this file).
+- LICENSE (CC0-1.0) — awesome-list canonical convention.
+- code-of-conduct.md (Contributor Covenant 2.1).
+- .editorconfig + .gitignore.
+- Badges row: Awesome, License (CC0-1.0), Last Commit, Track Awesome List.
+
+### Notes
+- LM Studio added MCP host support in **v0.3.17 (June 25, 2025)**.
+- OAuth 2.1 support with browser-based auth flow added late 2025 / early 2026.
+- LM Studio is structurally an MCP **client / host**, not a publisher — there is no `lmstudio/*` MCP server. This list mirrors that reality: we curate MCPs that are *consumable* by LM Studio, not MCPs Element Labs ships.
+- Token-frugality flag (🪶) reflects the maintainer's best judgment. Field reports in v1.1.0 will replace judgment with measured behavior.
+- The list deliberately overlaps with `awesome-mcp-servers` (broader, transport-agnostic) but differentiates on the curation criterion: **MCPs that work well with local LLMs in LM Studio's specific transport + auth model**.
+
+[Unreleased]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/rdmgator12/awesome-lm-studio-connectors/releases/tag/v1.0.0
