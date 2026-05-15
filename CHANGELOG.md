@@ -12,6 +12,22 @@ All notable changes to this list will be documented in this file. Format follows
 
 ---
 
+## [1.0.1] — 2026-05-15
+
+### Added
+- **Crawleo** under *Search and Knowledge* — hosted MCP for real-time web search, page crawl-to-markdown, Google Search, Google Maps, and headful browser rendering. Bearer-auth, joined the LM Studio docs ecosystem [May 6, 2026](https://www.crawleo.dev/blog/how-to-connect-crawleo-to-lm-studio-via-mcp).
+- About-section bullet for the **Locally AI acquisition** (April 8, 2026) — LM Studio's expansion onto iPhone, iPad, and Apple Silicon Macs. Not a connector but reframes the device surface this list runs on.
+- Version-stamp on OAuth 2.1 support — now attributed to v0.4.10 (April 9, 2026) for accuracy.
+
+### Changed
+- Header date → May 15, 2026.
+- Recommended Remote MCPs count: 12 → 13 (Crawleo).
+
+### Fixed
+- Officially Featured count typo: header said 5, body had 4 (Linear, Notion, Atlassian, Sentry). Corrected to 4.
+
+---
+
 ## [1.0.0] — 2026-05-10
 
 ### Added
@@ -34,5 +50,6 @@ All notable changes to this list will be documented in this file. Format follows
 - Token-frugality flag (🪶) reflects the maintainer's best judgment. Field reports in v1.1.0 will replace judgment with measured behavior.
 - The list deliberately overlaps with `awesome-mcp-servers` (broader, transport-agnostic) but differentiates on the curation criterion: **MCPs that work well with local LLMs in LM Studio's specific transport + auth model**.
 
-[Unreleased]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rdmgator12/awesome-lm-studio-connectors/releases/tag/v1.0.0

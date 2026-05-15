@@ -6,9 +6,9 @@
 
 > A curated directory of MCP integrations and connectors for [LM Studio](https://lmstudio.ai) — the local-first LLM runtime. Local model on your machine, optional cloud connectors via Model Context Protocol, organized by category with descriptions and use cases.
 
-**Last updated:** May 10, 2026 · **Officially Featured:** 5 · **Recommended Remote MCPs:** 12 · **Local Stdio MCPs:** 8 · **Categories:** 8 · **Version:** 1.0.0
+**Last updated:** May 15, 2026 · **Officially Featured:** 4 · **Recommended Remote MCPs:** 13 · **Local Stdio MCPs:** 8 · **Categories:** 8 · **Version:** 1.0.1
 
-LM Studio is a desktop app (Mac / Win / Linux) that runs LLMs locally — Hugging Face GGUF models served via an OpenAI-compatible API. Since version 0.3.17 (June 2025), LM Studio acts as an **MCP host**, meaning you can wire MCP servers into local-model chats. As of late 2025 / early 2026 it added **OAuth 2.1 with browser-based auth flow**, **ephemeral per-request MCPs**, and **fine-grained `allowed_tools` gating**.
+LM Studio is a desktop app (Mac / Win / Linux) that runs LLMs locally — Hugging Face GGUF models served via an OpenAI-compatible API. Since version 0.3.17 (June 2025), LM Studio acts as an **MCP host**, meaning you can wire MCP servers into local-model chats. As of late 2025 / early 2026 it added **OAuth 2.1 with browser-based auth flow** (v0.4.10, April 9, 2026), **ephemeral per-request MCPs**, and **fine-grained `allowed_tools` gating**. The **Locally AI acquisition** (April 8, 2026) extended LM Studio's device story onto iPhone, iPad, and Apple Silicon Macs.
 
 LM Studio is structurally similar to Mistral Le Chat: an MCP client / host, not a publisher. There is no `lmstudio/*` MCP server — Element Labs curates a small popular-integrations directory, accepts arbitrary remote MCPs, and supports local stdio servers via `npx` / `uvx`.
 
@@ -58,6 +58,7 @@ Beyond the official four, these remote MCP servers work with LM Studio's HTTP tr
 
 ## Search and Knowledge
 
+- 🌐 🪶 🅜 [Crawleo](https://www.crawleo.dev) - Hosted web-tools MCP: real-time web search, page crawl-to-markdown, Google Search, Google Maps, headful browser rendering. *MCP endpoint: `https://api.crawleo.dev/mcp` (bearer-auth). Use case: Adding fresh-web grounding, location lookups, and JS-heavy page extraction to a local model. Joined the LM Studio docs ecosystem May 6, 2026.*
 - 🌐 🪶 🅜 [Hugging Face](https://huggingface.co/mcp) - Hub access — model search, dataset retrieval, Spaces interaction. *The example MCP in LM Studio's own docs. Use case: Discovering models for your local rig, looking up datasets, querying Hub metadata.*
 - 🌐 🪶 🛠️ [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) - Web search via the Brave API. *Use case: Adding live web search to a local model without paying for Bing/Google APIs. Lightweight enough for 7B models.*
 
