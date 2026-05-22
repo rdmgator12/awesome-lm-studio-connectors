@@ -12,6 +12,20 @@ All notable changes to this list will be documented in this file. Format follows
 
 ---
 
+## [1.0.2] — 2026-05-22
+
+### Changed
+- About-paragraph version reference updated from v0.4.10 → **v0.4.13** (May 13, 2026 stable).
+- Added callout for the **v0.4.14 beta** (May 20, 2026) introducing **MTP Speculative Decoding** — multi-token prediction for faster local inference. Aligns with the list's local-first / token-frugal thesis.
+- Header date → May 22, 2026.
+
+### Notes
+- Verified the official [Popular MCP Integrations](https://lmstudio.ai/docs/integrations/mcp-remote/popular) page directly: still exactly 4 entries (Linear, Notion, Atlassian, Sentry). No new additions to the curated set. Officially Featured count remains 4.
+- No new OAuth-friendly remote MCPs from common vendors surfaced since v1.0.1. Recommended Remote MCPs count remains 13.
+- v0.4.14 beta Build 1 also fixed an OAuth token-exchange failure affecting some MCPs — context for the 8 🔐 OAuth entries in the list, no entry-level changes required.
+
+---
+
 ## [1.0.1] — 2026-05-15
 
 ### Added
@@ -50,6 +64,7 @@ All notable changes to this list will be documented in this file. Format follows
 - Token-frugality flag (🪶) reflects the maintainer's best judgment. Field reports in v1.1.0 will replace judgment with measured behavior.
 - The list deliberately overlaps with `awesome-mcp-servers` (broader, transport-agnostic) but differentiates on the curation criterion: **MCPs that work well with local LLMs in LM Studio's specific transport + auth model**.
 
-[Unreleased]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rdmgator12/awesome-lm-studio-connectors/releases/tag/v1.0.0

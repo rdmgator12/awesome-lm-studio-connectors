@@ -6,9 +6,9 @@
 
 > A curated directory of MCP integrations and connectors for [LM Studio](https://lmstudio.ai) — the local-first LLM runtime. Local model on your machine, optional cloud connectors via Model Context Protocol, organized by category with descriptions and use cases.
 
-**Last updated:** May 15, 2026 · **Officially Featured:** 4 · **Recommended Remote MCPs:** 13 · **Local Stdio MCPs:** 8 · **Categories:** 8 · **Version:** 1.0.1
+**Last updated:** May 22, 2026 · **Officially Featured:** 4 · **Recommended Remote MCPs:** 13 · **Local Stdio MCPs:** 8 · **Categories:** 8 · **Version:** 1.0.2
 
-LM Studio is a desktop app (Mac / Win / Linux) that runs LLMs locally — Hugging Face GGUF models served via an OpenAI-compatible API. Since version 0.3.17 (June 2025), LM Studio acts as an **MCP host**, meaning you can wire MCP servers into local-model chats. As of late 2025 / early 2026 it added **OAuth 2.1 with browser-based auth flow** (v0.4.10, April 9, 2026), **ephemeral per-request MCPs**, and **fine-grained `allowed_tools` gating**. The **Locally AI acquisition** (April 8, 2026) extended LM Studio's device story onto iPhone, iPad, and Apple Silicon Macs.
+LM Studio is a desktop app (Mac / Win / Linux) that runs LLMs locally — Hugging Face GGUF models served via an OpenAI-compatible API. Since version 0.3.17 (June 2025), LM Studio acts as an **MCP host**, meaning you can wire MCP servers into local-model chats. As of late 2025 / early 2026 it added **OAuth 2.1 with browser-based auth flow** (v0.4.10, April 9, 2026), **ephemeral per-request MCPs**, and **fine-grained `allowed_tools` gating**. The **Locally AI acquisition** (April 8, 2026) extended LM Studio's device story onto iPhone, iPad, and Apple Silicon Macs. Current stable is **v0.4.13** (May 13, 2026); the **v0.4.14 beta** (May 20, 2026) introduces **MTP Speculative Decoding** — multi-token prediction that materially speeds up inference on supported models, reinforcing the local-first thesis this list is built around.
 
 LM Studio is structurally similar to Mistral Le Chat: an MCP client / host, not a publisher. There is no `lmstudio/*` MCP server — Element Labs curates a small popular-integrations directory, accepts arbitrary remote MCPs, and supports local stdio servers via `npx` / `uvx`.
 
