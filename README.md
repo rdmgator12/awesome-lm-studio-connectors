@@ -63,6 +63,7 @@ Beyond the official four, these remote MCP servers work with LM Studio's HTTP tr
 - 🌐 🪶 🅜 [Crawleo](https://www.crawleo.dev) - Hosted web-tools MCP: real-time web search, page crawl-to-markdown, Google Search, Google Maps, headful browser rendering. *MCP endpoint: `https://api.crawleo.dev/mcp` (bearer-auth). Use case: Adding fresh-web grounding, location lookups, and JS-heavy page extraction to a local model. Joined the LM Studio docs ecosystem May 6, 2026.*
 - 🌐 🪶 🅜 [Hugging Face](https://huggingface.co/mcp) - Hub access — model search, dataset retrieval, Spaces interaction. *The example MCP in LM Studio's own docs. Use case: Discovering models for your local rig, looking up datasets, querying Hub metadata.*
 - 🌐 🪶 🛠️ [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) - Web search via the Brave API. *Use case: Adding live web search to a local model without paying for Bing/Google APIs. Lightweight enough for 7B models.*
+- 🌐 🅜 [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - Remote MCP server for X/Twitter data workflows with REST API, webhooks, SDKs, and media download. *MCP endpoint: `https://xquik.com/mcp` (API-key auth). Use case: Searching X/Twitter and downloading media from a local-model session; use `allowed_tools` to scope larger data pulls.*
 
 ## Development Tools
 
