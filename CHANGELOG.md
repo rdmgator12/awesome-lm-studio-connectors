@@ -18,6 +18,7 @@ All notable changes to this list will be documented in this file. Format follows
 - About-paragraph stable version: **v0.4.17 → v0.4.18** (Build 1, June 26, 2026 — shipped hours after the v1.0.3 sweep). UI zoom-clipping fix, reasoning-toggle fix for models with custom reasoning settings, chat-title generation fix for reasoning models, and settings guidance for llama.cpp options under LM Studio Engine Protocol. **No MCP-surface changes.**
 - SSRF note: the `lms` [tracking issue #574](https://github.com/lmstudio-ai/lms/issues/574) is **closed (completed June 7, 2026)** — reworded to "now-closed tracking issue". Guard behavior unchanged.
 - Header date → July 2, 2026.
+- Added the inaugural **Connector of the Week** block (rotates weekly), matching the sibling-list convention. First pick: Brave Search MCP — the entry that best embodies the token-frugal local-first thesis.
 
 ### Added
 - CONTRIBUTING: two new Recommended-Remote submission criteria — **vendor-affiliation disclosure** (undisclosed self-promotion = auto-reject) and a **field-report requirement** for new remote entries (endpoint-liveness checks alone don't qualify). Added after PR #1 demonstrated that automated spam can pass every liveness check.

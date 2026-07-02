@@ -24,6 +24,13 @@ For more information, see [Use MCP Servers](https://lmstudio.ai/docs/app/mcp), t
 
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Element Labs Inc. (LM Studio). "LM Studio" and related marks are the property of Element Labs Inc. Each connector is the property of its respective owner.
 
+> [!TIP]
+> ### Connector of the Week — July 2, 2026
+>
+> **Brave Search MCP** · *Search and Knowledge*
+>
+> Inaugural pick, and it goes to the entry that best embodies this list's thesis: Brave Search gives a 7B-class local model live web search without a Google/Bing API bill, with responses lean enough not to blow out a small context window — the 🪶 token-frugality flag earned, not assumed. In a week whose main event was rejecting a spam submission (see the new CONTRIBUTING criteria: affiliation disclosure and field reports are now required), it's worth pointing at what a *good* remote MCP for local models actually looks like: vendor-maintained, simply authenticated, and frugal by design. Listed under Search and Knowledge below.
+
 ---
 
 ## Contents
