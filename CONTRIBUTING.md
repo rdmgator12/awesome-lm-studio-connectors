@@ -15,6 +15,8 @@ For MCPs *not* on LM Studio's official Popular page, submit only if **all of the
 - Supports OAuth 2.1 OR plain bearer-header auth without manual token rotation.
 - Token-frugal enough to be flagged 🪶 OR clearly worth the token cost (e.g., critical for a specific workflow).
 - Built or maintained by the vendor itself (🅜) OR by a high-signal community maintainer (🛠️).
+- **You disclose any affiliation with the vendor in the PR.** Undisclosed vendor self-promotion is an auto-reject, regardless of technical merit.
+- The entry comes with a **field report** — yours or a maintainer's — showing it actually works from LM Studio with a named local model + quant. Endpoint-liveness checks alone (200s, manifests, `.well-known` files) do not qualify an entry; they only prove the service exists.
 
 ### Local Stdio MCP additions
 Submit if the MCP is regularly installable via `npx` / `uvx` / Docker, runs offline (or mostly offline), and pairs well with local-LLM workflows. Keep this section narrow — the criterion is **reliable + low-overhead + locally executable**, not "every MCP with a stdio transport."

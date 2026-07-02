@@ -12,6 +12,23 @@ All notable changes to this list will be documented in this file. Format follows
 
 ---
 
+## [1.0.4] — 2026-07-02
+
+### Changed
+- About-paragraph stable version: **v0.4.17 → v0.4.18** (Build 1, June 26, 2026 — shipped hours after the v1.0.3 sweep). UI zoom-clipping fix, reasoning-toggle fix for models with custom reasoning settings, chat-title generation fix for reasoning models, and settings guidance for llama.cpp options under LM Studio Engine Protocol. **No MCP-surface changes.**
+- SSRF note: the `lms` [tracking issue #574](https://github.com/lmstudio-ai/lms/issues/574) is **closed (completed June 7, 2026)** — reworded to "now-closed tracking issue". Guard behavior unchanged.
+- Header date → July 2, 2026.
+
+### Added
+- CONTRIBUTING: two new Recommended-Remote submission criteria — **vendor-affiliation disclosure** (undisclosed self-promotion = auto-reject) and a **field-report requirement** for new remote entries (endpoint-liveness checks alone don't qualify). Added after PR #1 demonstrated that automated spam can pass every liveness check.
+
+### Notes
+- **PR #1 (Xquik) rejected** — undisclosed vendor self-promotion within an automated spam campaign (3,200+ Xquik-mentioning PRs across GitHub in June 2026; the contributor's profile links the vendor site). The GitHub repo is a verification stub / distribution shell, and the service's X automation surface (DM sending, mass follow/like/retweet, follower export) violates X's ToS. Fails the section's auth criterion regardless (manual API-key management). Expect re-submissions under other names — the campaign also runs "Hermes Tweet" and "TweetClaw" variants.
+- Verified the official [Popular MCP Integrations](https://lmstudio.ai/docs/integrations/mcp-remote/popular) page directly: still exactly 4 entries (Linear, Notion, Atlassian, Sentry). Counts unchanged: 4 / 13 / 8.
+- Beta channel empty as of July 2 ("The stable version is the latest"); mlx-engine remains v1.8.5. LM Studio docs now carry agent-backend integration guides (Claude Code, Codex, Hermes Agent, OpenClaw) — LM Studio-as-backend, not MCP connectors; out of entry scope.
+
+---
+
 ## [1.0.3] — 2026-06-26
 
 ### Changed
@@ -81,7 +98,8 @@ All notable changes to this list will be documented in this file. Format follows
 - Token-frugality flag (🪶) reflects the maintainer's best judgment. Field reports in v1.1.0 will replace judgment with measured behavior.
 - The list deliberately overlaps with `awesome-mcp-servers` (broader, transport-agnostic) but differentiates on the curation criterion: **MCPs that work well with local LLMs in LM Studio's specific transport + auth model**.
 
-[Unreleased]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.3...HEAD
+[Unreleased]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.4...HEAD
+[1.0.4]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/rdmgator12/awesome-lm-studio-connectors/compare/v1.0.0...v1.0.1
